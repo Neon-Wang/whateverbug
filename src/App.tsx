@@ -54,8 +54,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>🛒 购物车系统 - Bug演示</h1>
-        <p className="bug-hint">提示：尝试添加多个相同商品，观察总价的变化</p>
+        <h1>购物车</h1>
       </header>
       <main className="app-main">
         <ProductList products={initialProducts} onAddToCart={handleAddToCart} />
